@@ -1,0 +1,5 @@
+# baileys & protobufjs ship prebuilt — we intentionally do NOT run their install
+# scripts (false). They function fine without them.
+allowBuilds:
+  baileys: false
+  protobufjs: false
